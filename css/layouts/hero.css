@@ -1,0 +1,117 @@
+.hero__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #ffcf04;
+}
+.hero__description,
+.hero__slider-container {
+  display: flex;
+  flex: 1 1 0%;
+}
+.hero__description {
+  min-width: 360px;
+  padding: 2px;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hero__title {
+  line-height: 3.75rem;
+  font-size: 3.25rem;
+  font-weight: 700;
+}
+.hero__desc-one {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.hero__desc-two {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+.hero__slider-container {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-slider__img {
+  width: 100%;
+  position: relative;
+}
+.splide__slide {
+  position: relative;
+}
+.hero-slider__img-name,
+.hero-slider__img-desc,
+.hero-slider__img-btns {
+  position: absolute;
+}
+.hero-slider__img-name {
+  padding: 0.25rem 0.625rem;
+  top: 48%;
+  left: 7%;
+  line-height: 1.25rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+  border-radius: 0.25rem;
+  background-color: #fff;
+}
+.hero-slider__img-desc {
+  width: 50%;
+  min-width: 50%;
+  max-width: 80%;
+  max-height: 180px;
+  padding: 1.4rem 1.7rem;
+  top: 53%;
+  left: 4%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  background: linear-gradient(
+    197.47deg,
+    rgba(83, 74, 74, 0.455) 11.5%,
+    rgba(0, 0, 0, 0.7) 75.41%
+  );
+}
+.hero-slider__img-date {
+  display: flex;
+  line-height: 1.125rem;
+  font-weight: 500;
+  gap: 2rem;
+}
+.hero-slider__img-place {
+  overflow: hidden;
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.hero-slider__img-detail {
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+.hero-slider__img-btns {
+  padding: 4% 6%;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  background-color: #fff;
+}
+.hero-slider__img-btns button {
+  padding: 0.25rem;
+  font-size: 3rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  outline: none;
+  border: none;
+}
+.hero-slider hr {
+  height: 5px;
+  background-color: #ffcf04;
+}

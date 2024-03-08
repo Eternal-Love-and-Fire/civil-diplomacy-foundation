@@ -1,0 +1,13 @@
+.header__nav-link:hover {
+  border-bottom-color: #000;
+}
+.lang-changer .icon:hover {
+  font-weight: 600;
+  border-color: #fff;
+  color: #fff;
+  background-color: #000;
+}
+.header__btn:hover {
+  background: #430743;
+  color: #fff;
+}

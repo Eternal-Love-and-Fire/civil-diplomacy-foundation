@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Civil Diplomacy Foundation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/layouts/page.css" />
+    <link rel="stylesheet" href="./css/layouts/header.css" />
+    <link rel="stylesheet" href="./css/layouts/hero.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/effects.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-intersection@0.2.0/dist/js/splide-extension-intersection.min.js"
+    ></script>
+    <script defer src="./js/splide.js"></script>
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <div class="logo">
+            <a href="/">
+              <img
+                src="assets/Logo.png"
+                alt="Logo"
+                width="316px"
+                height="100px"
+              />
+            </a>
+          </div>
+          <div class="lang-changer">
+            <div class="icon">UA</div>
+          </div>
+          <input type="checkbox" id="burgermenu" />
+          <label for="burgermenu" class="burgermenu-icon">
+            <span></span><span></span><span></span>
+          </label>
+          <nav class="header__nav">
+            <a href="#about-us" class="header__nav-link">Про нас</a
+            ><a href="#consulting" class="header__nav-link">CDE Consultihg</a
+            ><a href="#analytics" class="header__nav-link">Аналітика</a
+            ><a href="#interview" class="header__nav-link">Інтерв’ю</a
+            ><a href="#news" class="header__nav-link">Новини</a
+            ><a href="#contacts" class="header__nav-link">Контакти</a>
+          </nav>
+          <nav class="header__contacs">
+            <a href=""
+              ><img
+                src="assets/facebook-icon.png"
+                alt="facebook icon"
+                class="icon" /></a
+            ><a href=""
+              ><img
+                src="assets/Telegram-icon.png"
+                alt="telegram icon"
+                class="icon" /></a
+            ><a href=""
+              ><img
+                src="assets/Youtube-icon.png"
+                alt="youtube icon"
+                class="icon"
+            /></a>
+          </nav>
+          <a href="#" class="header__btn">Підтримати фонд</a>
+        </div>
+      </header>
+      <main class="hero">
+        <div class="container hero__container">
+          <div class="hero__description">
+            <h1 class="hero__title">ФОНД ГРОМАДСЬКОЇ ДИПЛОМАТІЇ</h1>
+            <p class="hero__desc-one">
+              Успішна дипломатія – це основа для становлення держави на
+              міжнародній арені, механізм пошуку надійних зарубіжних партнерів
+              та незамінний канал комунікації зі світовою спільнотою. Якщо
+              політики ведуть боротьбу за завтрашній день, дипломати виграють
+              війну за вічність.
+            </p>
+            <p class="hero__desc-two">
+              У сьогоднішніх геополітичних реаліях український народ як ніколи
+              потребує обдуманих зовнішньополітичних рішень, спрямованих на
+              актуалізацію українського питання у порядку денному провідних
+              гравців міжнародного політичного процесу, розвитку перспективних
+              міждержавних контактів, здатних принести реальні
+              політико-економічні дивіденди, поширення української культури за
+              кордоном та об’єднання усіх етнічних українців незалежно від їх
+              територіального перебування навколо ідеї будівництва сильної і
+              процвітаючої України.Численні виклики, які випали на наше
+              покоління, закріпили відчуття національної ідентичності, розвинули
+              самостійність українського суспільства, виразили його готовність
+              брати ініціативу у власні руки та впливати на політичні процеси в
+              країні. Наступним проявом суспільного розвитку в Україні покликана
+              стати «громадська дипломатія».
+            </p>
+          </div>
+          <div class="hero__slider-container hero-slider splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img
+                    src="./assets/hero-mainimg.png"
+                    alt="hero img some men and women"
+                  />
+                  <div class="hero-slider__img-name">Конференція</div>
+                  <div class="hero-slider__img-desc">
+                    <div class="hero-slider__img-date">
+                      <span>08.02.2024</span>
+                      <span>15:30 (Київ)</span>
+                    </div>
+                    <div class="hero-slider__img-place">
+                      Україна та Азія: Стратегічні Виміри Партнерства
+                    </div>
+                    <div class="hero-slider__img-detail">Деталі івенту</div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./assets/Property 1=Variant2.png"
+                    alt="hero img some men and women"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
